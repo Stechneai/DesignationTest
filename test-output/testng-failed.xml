@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="designationMaster.designationMaster.DesignationMasterTC">
+        <methods>
+          <include name="tc20"/>
+          <include name="open"/>
+          <include name="tc11"/>
+          <include name="tc22"/>
+          <include name="cleanUp"/>
+          <include name="tc7"/>
+          <include name="tearDown"/>
+          <include name="tc8"/>
+          <include name="tc18"/>
+          <include name="tc9"/>
+          <include name="setup"/>
+          <include name="tc14"/>
+          <include name="tc2"/>
+          <include name="tc25"/>
+          <include name="tc19"/>
+          <include name="tc24"/>
+          <include name="tc3"/>
+          <include name="tc10"/>
+          <include name="tc21"/>
+          <include name="tc15"/>
+          <include name="tc26"/>
+          <include name="tc23"/>
+        </methods>
+      </class> <!-- designationMaster.designationMaster.DesignationMasterTC -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

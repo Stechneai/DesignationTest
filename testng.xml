@@ -6,4 +6,14 @@
       <class name="designationMaster.designationMaster.DesignationMasterTC"/>
     </classes>
   </test> <!-- Test -->
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="designationMaster.designationMaster.BaseClass"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="designationMaster.designationMaster.functions"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

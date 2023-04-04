@@ -39,14 +39,6 @@
 			<artifactId>maven-resources-plugin</artifactId>
 			<version>3.1.0</version>
 		</dependency>
-		<dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.9.13.6</version>
-            <scope>test</scope>
-</dependency>
-
-
 		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports
 <dependency>
     <groupId>com.relevantcodes</groupId>
@@ -116,7 +108,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.14.3</version>
-			<scope>test</scope>
+			<scope>compile</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot -->
 		<dependency>
